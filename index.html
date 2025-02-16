@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="logo" />
+      </div>
+      <div class="page-name">Quiz Mania</div>
+      <div class="home">
+        <a href="form/form.html">
+          <i class="fa fa-home"></i>
+          <p>Regenerate Questions</p>
+        </a>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="results" style="display: none;">
+        <h2>Quiz Complete!</h2>
+        <div class="score-summary">
+          <p>Your Final Score: <span class="final-score">0</span></p>
+          <p>Total Questions: <span class="total-questions">3</span></p>
+        </div>
+        <button class="restart-quiz">Try Again <i class="fa fa-refresh"></i></button>
+      </div>
+      <div class="quiz-container">
+      </div>
+    </div>
+
+    <footer>
+      <a href="https://github.com/ayasqualli/spd2-mini-project-1"
+        >Source code Repository</a
+      >
+      <p>SPD2-S4</p>
+      <p>
+        Questions generated from
+        <span
+          ><a href="https://opentdb.com/api_config.php">Open Trivia DB</a></span
+        >
+      </p>
+      <p>
+        &copy; 2025 Made with ❤️ by Aya SQUALLI HOUSSAINI. All rights reserved.
+      </p>
+    </footer>
+
+  </body>
+</html>
